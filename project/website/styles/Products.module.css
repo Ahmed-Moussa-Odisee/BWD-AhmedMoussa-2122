@@ -1,0 +1,131 @@
+.container .main {
+    height: 100vh;
+    overflow-y: auto;
+}
+.container .main .maincontainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 25px;
+    height: 100%;
+    margin-top: 50px;
+}
+.container .main .maincontainer .filter {
+    min-width: 300px;
+    max-width: 300px;
+    flex: 1;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 4px;
+}
+.container .main .maincontainer .filter .input {
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+}
+.container .main .maincontainer .products {
+    flex: 1;
+    min-width: 300px;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .main .maincontainer .products .product {
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 250px;
+    height: 300px;
+    margin: 15px;
+    transition: 0.2s;
+}
+.container .main .maincontainer .products .product:hover {
+    transition: 0.2s;
+    transform: scale(105%);
+}
+.container .main .maincontainer .products .product .texts {
+    padding: 15px;
+}
+.container .main .maincontainer .products .product .img {
+    width: 100%;
+    height: 200px;
+}
+.container .popup {
+    background: rgba(34, 34, 34, 0.5);
+    backdrop-filter: blur(20px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+}
+.container .popup .popupmenu {
+    width: 1200px;
+    background: #e0e0e0;
+    height: 500px;
+    border-radius: 4px;
+    position: absolute;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.container .popup .popupmenu .img {
+    height: 100%;
+}
+.container .popup .popupmenu .texts {
+    flex: 1;
+    padding: 15px;
+    height: 100%;
+}
+.container .popup .popupmenu .closebtn {
+    background: transparent;
+    font-size: 24px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    border: none;
+}
+.container .popup .popupmenu .button {
+    background: #222;
+    font-size: 16px;
+    padding: 15px;
+    display: block;
+    color: #fafafa;
+    cursor: pointer;
+    border: none;
+}
+@media only screen and (max-width: 1200px) {
+    .container .popup .popupmenu {
+        width: 80%;
+        height: max-content;
+    }
+    .container .popup .popupmenu .img {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container .main .maincontainer .filter {
+        max-width: none;
+    }
+    .container .main .maincontainer .products {
+        justify-content: center;
+    }
+}
+.container .footer {
+    display: flex;
+    padding: 2rem 0;
+    flex: 1;
+    border-top: 1px solid #eeeeee;
+    justify-content: center;
+    align-items: center;
+}
+.container .footer .logo {
+    width: 100px;
+}

@@ -1,0 +1,21 @@
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: #222;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.navbar .link {
+    color: #fafafa;
+    font-size: 16px;
+}
+.navbar .langs {
+    color: #6b6b6b;
+}
+.navbar .langs .link {
+    font-size: 12px;
+}

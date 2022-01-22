@@ -1,0 +1,52 @@
+.container .main {
+    min-height: 1px;
+}
+
+.container .main .product {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 1200px;
+    height: 300px;
+    margin: 25px auto;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.container .main .product .texts {
+    text-align: left;
+    padding: 10px;
+    width: 55%;
+    min-width: 300px;
+}
+
+.container .main .product .img {
+    width: 50%;
+    min-width: 300px;
+    flex: 1;
+}
+
+@media only screen and (max-width: 992px) {
+    .container .main .product {
+        width: 90%;
+        height: max-content;
+    }
+    .container .main .types .imagecontainer {
+        width: 80%;
+    }
+}
+
+.container .footer {
+    display: flex;
+    flex: 1;
+    padding: 2rem 0;
+    border-top: 1px solid #eeeeee;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .footer .logo {
+    width: 100px;
+}

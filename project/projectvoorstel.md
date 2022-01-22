@@ -7,44 +7,44 @@ _vul alle kruisjes in!_
 ## A. SITE TITEL
 _dit is de bedrijfsnaam, organisatie, naam webshop..._
 
-X
+AC Bien-être
 
 ## B. SLAGZIN
 _bedenk een slagzin van 3 tot 10 woorden wat jouw site de gebruiker biedt; vermijd holle uitdrukkingen als “de beste producten” of “service op maat voor iedereen”; probeer echt te beschrijven wat je site uniek maakt!_
 
-X
+Lekkerste en fijnste soorten honing
 
 ## C. KORTE BESCHRIJVING 
 _beschrijf in een paar zinnen de inhoud / functionaliteit van je site_
 
-X
+Het is een presentatieve website van alle soorten honing met hun prijzen. Aankoop gebeurt niet op de website (misschien wel, dit moet ik nog afspreken met de eigenaar).
 
 ## D. LANGE BESCHRIJVING 
 _beschrijf welke pagina’s je wil maken, en met welke inhoud / functionaliteit; typisch zul je een homepagina, contactpagina, overzichtspagina en detailpagina hebben_
 
 ### PAGINA 1 
-naam: X  
+naam: Présentation
 beschrijving:
 
-X
+Presentatie over AC Bien-être 
 
 ### PAGINA 2
-naam: X  
+naam: Produits
 beschrijving:
 
-X
+Een voorstelling van alle producten (en misschien mogelijkheid om ze aan te kopen)
 
 ### PAGINA 3
-naam: X  
+naam: Contact 
 beschrijving:
 
-X
+Alle contactgegevens
 
 ### PAGINA 4
-naam: X  
+naam: FAQ
 beschrijving:
 
-X
+Een "veelgestelde vragen" pagina waar er antwoorden staan voor alle logische vragen.
 
 ## E. REFERENTIES (optioneel) 
 zet hier links naar bronnen als de eventuele huidige website, sites of designs waar je je op wil inspireren... 

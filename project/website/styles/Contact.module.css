@@ -1,0 +1,33 @@
+.container .main {
+    min-height: 100vh;
+}
+
+.container .main .middlecontainer {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container .main .middlecontainer .texts {
+    margin-left: 40px;
+}
+
+.container .main .middlecontainer .field {
+    display: block;
+    margin: 5px;
+}
+
+.container .footer {
+    display: flex;
+    flex: 1;
+    padding: 2rem 0;
+    border-top: 1px solid #eeeeee;
+    justify-content: center;
+    align-items: center;
+}
+.container .footer .logo {
+    width: 100px;
+}
